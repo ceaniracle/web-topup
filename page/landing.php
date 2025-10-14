@@ -1,6 +1,10 @@
 <?php
-require_once '../COMPONENT/navbar.php' ;
+ require_once '../COMPONENT/navbar.php';
+ require_once '../COMPONENT/head.php';
 ?>
+<link rel="stylesheet" href="../COMPONENT/style.css">
+
+
 
 <!-- Header -->
     <header class="header-custom">
@@ -9,7 +13,7 @@ require_once '../COMPONENT/navbar.php' ;
                 <div class="d-flex align-items-center">
                     <a href="Home.html">
 
-                        <img src="asset/logo.png" alt="" style="height: 60px;">
+                        <img src="../asset/logo.png" alt="" style="height: 60px;">
                     </a>
                 </div>
                 <nav class="d-none d-md-flex align-items-center">
@@ -35,7 +39,7 @@ require_once '../COMPONENT/navbar.php' ;
     <!-- Hero Section -->
     <section class="hero-section position-relative d-flex align-items-center" style="min-height: 100vh;">
         <div class="hero-bg position-absolute top-0 start-0 w-100 h-100">
-            <img src="asset/hhhhh new.png" alt="" class="w-100 h-100" style="object-fit: cover;">
+            <img src="../asset/hhhhh new.png" alt="" class="w-100 h-100" style="object-fit: cover;">
         </div>
 
         <div class="container hero-content position-relative">
@@ -74,32 +78,32 @@ require_once '../COMPONENT/navbar.php' ;
                 </div>
                 <div class="col-6 ">
                     <div class="popular-item">
-                        <img src="asset/Roblox (via login) (4).png" alt="" class="img-fluid">
+                        <img src="../asset/Roblox (via login) (4).png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-6 ">
                     <div class="popular-item">
-                        <img src="asset/Roblox (via login) (6).png" alt="" class="img-fluid">
+                        <img src="../asset/Roblox (via login) (6).png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-6 ">
                     <div class="popular-item">
-                        <img src="asset/Roblox (via login) (8).png" alt="" class="img-fluid">
+                        <img src="../asset/Roblox (via login) (8).png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-6 ">
                     <div class="popular-item">
-                        <img src="asset/Roblox (via login) (5).png" alt="" class="img-fluid">
+                        <img src="../asset/Roblox (via login) (5).png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-6 ">
                     <div class="popular-item">
-                        <img src="asset/Roblox (via login) (7).png" alt="" class="img-fluid">
+                        <img src="../asset/Roblox (via login) (7).png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-6 ">
                     <div class="popular-item">
-                        <img src="asset/Roblox (via login).png" alt="" class="img-fluid">
+                        <img src="../asset/Roblox (via login).png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -136,7 +140,7 @@ require_once '../COMPONENT/navbar.php' ;
                             <div class="game-card">
                                 <a href="Detail.html" style="text-decoration:none;">
                                     <div class="game-card-content">
-                                        <img src="asset/tp mole.png" alt="" class="img-fluid">
+                                        <img src="../asset/tp mole.png" alt="" class="img-fluid">
                                     </div>
                                 </a>
                             </div>
@@ -144,56 +148,56 @@ require_once '../COMPONENT/navbar.php' ;
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="asset/tp roblok.png" alt="" class="img-fluid">
+                                    <img src="../asset/tp roblok.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="asset/tp hsr.png" alt="" class="img-fluid">
+                                    <img src="../asset/tp hsr.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="asset/tp gi.png" alt="" class="img-fluid">
+                                    <img src="../asset/tp gi.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="asset/tp mcgg.png" alt="" class="img-fluid">
+                                    <img src="../asset/tp mcgg.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="asset/tp ff.png" alt="" class="img-fluid">
+                                    <img src="../asset/tp ff.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="asset/topup lads.png" alt="" class="img-fluid">
+                                    <img src="../asset/topup lads.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="asset/topup hok.png" alt="" class="img-fluid">
+                                    <img src="../asset/topup hok.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="asset/tp pubg.png" alt="" class="img-fluid">
+                                    <img src="../asset/tp pubg.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -207,14 +211,14 @@ require_once '../COMPONENT/navbar.php' ;
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="asset/ml via login.png" alt="" class="img-fluid">
+                                    <img src="../asset/ml via login.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="asset/rosbloj v login.png" alt="" class="img-fluid">
+                                    <img src="../asset/rosbloj v login.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -223,38 +227,38 @@ require_once '../COMPONENT/navbar.php' ;
                     </div>
                 </div>
 
-                <!-- Tab JOKI -->
+                 <!-- Tab JOKI -->
                 <div class="tab-pane fade" id="joki-pane" role="tabpanel" aria-labelledby="joki-tab" tabindex="0">
                     <div class="row g-3">
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="" alt="" class="img-fluid">
+                                    <img src="../asset/joki rank.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="assets//CardJokiMLClassic.png" alt="" class="img-fluid">
+                                    <img src="../asset/joki cl.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="assets//CardJokiMLGendong.png" alt="" class="img-fluid">
+                                    <img src="../asset/joki gendong.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-4 col-lg-4">
                             <div class="game-card">
                                 <div class="game-card-content">
-                                    <img src="assets//CardJokiMCGG.png" alt="" class="img-fluid">
+                                    <img src="../asset/joki mcgg.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
-                        <a href="Explore.html" class="text-center p-5  text-white fs-2">Tampilkan Lainyaa ....</a>
+                        <a href="viewall.html" class="text-center p-5  text-white fs-2">Tampilkan Lainyaa ....</a>
                     </div>
                 </div>
             </div>
