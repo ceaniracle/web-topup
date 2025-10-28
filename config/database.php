@@ -4,7 +4,7 @@ class Database{
     public function getConnection(){
         $this->connection = null;
         try{
-            $this->connection = new mysqli(hostname: "localhost", username: "root", password: '', database: "db_webtopup");
+            $this->connection = new mysqli(hostname: "localhost", username: "root", password: '', database: "db_topupmeowp");
 
             if($this->connection->connect_error){
                 die("Connection failed: " . $this->connection->connect_error);
