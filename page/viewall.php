@@ -10,7 +10,7 @@
             <div class="row g-4">
                 <!-- Top Up Games -->
                 <div class="col-4">
-                    <a href="Detail.html" style="text-decoration:none;">
+                    <a href="detail.php" style="text-decoration:none;">
                         <div class="game-card">
                             <div class="game-card-content">
                                 <img src="asset/tp mole.png" alt="Mobile Legends" class="img-fluid">

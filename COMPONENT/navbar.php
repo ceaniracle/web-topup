@@ -2,7 +2,7 @@
         <div class="container">
             <div class="d-flex justify-content-between align-items-center py-3">
                 <div class="d-flex align-items-center">
-                    <a href="Home.html">
+                    <a href="home.php">
                         <img src="asset/logo.png" alt="" style="height: 60px;">
                     </a>
                 </div>
